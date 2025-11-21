@@ -1,0 +1,20 @@
+class CalendlyXpath():
+    calendly_iframe = "//div[@class='tf-v1-widget']//iframe"
+    calendly_frame = "//iframe[@title='Calendly']"
+    calendly_frame_2 = "//iframe[@title='Select a Date & Time - Calendly']"
+    available_dates = "//td//button[not(@disabled)]"
+    available_time_slots = "//div[@data-component='spot-list']//button"
+    next_btn = "//button[normalize-space()='Next']"
+    schedule_btn = "//button[@type='submit']"
+    next_month = "//button[@aria-label='Go to next month']"
+    view_next_month = "//button[@class='uvkj3lh']"
+    calendly_textarea_data = "//textarea[@id='U3YmDxjC_6x-11i_UI5fe']"
+    agree_btn = "//button[normalize-space()='Agree']"
+    next_onboarding_btn = "//button[@id='onboardingModalBtn']"
+    consultation = "(//a[@href='/patient/book-consultation/'])[1]"
+
+    upcomming_drpdwn = "//div[@class='alert alert-warning alert-upcoming']//div[@role='button']"
+    cancel_appointment = "//a[@target='_blank'][normalize-space()='Cancel']"
+    cancel_btn = "//ul[@class='dropdown-menu dropdown-menu-end show']//li//a[text()='Cancel']"
+
+    reschedule_appointment = "//a[@target='_blank'][normalize-space()='Reschedule']"

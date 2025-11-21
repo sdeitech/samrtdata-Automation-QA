@@ -1,0 +1,5 @@
+ExecutionReports
+Logs/
+allure-report/
+allure-results/
+*.pyc

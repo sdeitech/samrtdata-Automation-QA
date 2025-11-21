@@ -1,0 +1,15 @@
+class SupportXpath():
+    faq_card = "(//div[@class='popular-question-item'])"
+    card_title = "//div[@class='popular-question-content-title']"
+    most_asked = "//div[@class='popular-question-content-link']//a"
+    view_more = "//div[@class='view-questions']//a"
+    faq_section = "(//div[@class='faq_section'])"
+    faq_section_1 = "(//div[@class='faq_section']"
+    faq_section_title = "//div[@class='faq-section-title']"
+    question_items = "//div[@class='accordion-item']"
+    question_links = "//button[@class='accordion-button collapsed']"
+    faq_question = "//div[@class='faq_question']"
+    welcome_guide = "//a[@class='helpfull-resource-link']"
+    live_chat = "//button[@id='openIframeButton']"
+    live_chat_frame = "//iframe[@class='rounded']"
+

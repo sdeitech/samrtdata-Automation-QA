@@ -1,0 +1,12 @@
+class CalendlyXpath():
+    calendly_frame = "//iframe[@title='Calendly']"
+    calendly_frame_2 = "//iframe[@title='Select a Date & Time - Calendly']"
+    available_dates = "//td//button[not(@disabled)]"
+    available_time_slots = "//div[@data-component='spot-list']//button"
+    next_btn = "//button[normalize-space()='Next']"
+    schedule_btn = "//button[@type='submit']"
+    next_month = "//button[@aria-label='Go to next month']"
+    view_next_month = "//button[@class='uvkj3lh']"
+    calendly_textarea_data = "//textarea[@id='U3YmDxjC_6x-11i_UI5fe']"
+    agree_btn = "//button[normalize-space()='Agree']"
+    next_onboarding_btn = "//button[@id='onboardingModalBtn']"
